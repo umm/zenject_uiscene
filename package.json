@@ -1,6 +1,6 @@
 {
   "name": "@umm/zenject_uiscene",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Provide general UI Scene for Zenject",
   "homepage": "https://github.com/umm/zenject_uiscene",
   "bugs": {
