@@ -1,0 +1,31 @@
+{
+  "name": "@umm/zenject_uiscene",
+  "version": "0.0.0",
+  "description": "Provide general UI Scene for Zenject",
+  "homepage": "https://github.com/umm/zenject_uiscene",
+  "bugs": {
+    "url": "https://github.com/umm/zenject_uiscene/issues"
+  },
+  "scripts": {
+    "umm:init": "umm-init",
+    "umm:generate_assembly_definition": "umm-generate_assembly_definition",
+    "umm:module:install": "umm-module-install",
+    "umm:module:uninstall": "umm-module-uninstall",
+    "postinstall": "npm run --silent umm:module:install",
+    "postuninstall": "npm run --silent umm:module:uninstall"
+  },
+  "author": "Tetsuya Mori",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:umm/zenject_uiscene"
+  },
+  "files": [
+    "Assets"
+  ],
+  "dependencies": {
+    "@umm/scripts": "umm/scripts#^1.0.0",
+    "@umm/zenject": "umm/zenject#^2.0.0"
+  },
+  "devDependencies": {}
+}

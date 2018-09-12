@@ -1,0 +1,10 @@
+{
+    "name": "umm@zenject_uiscene",
+    "references": [
+        "Zenject"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}
